@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en" data-platform="ios">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Widgetik: Home Screen Widgets for iPhone, iPad and Android</title>
+  <meta name="description" content="25+ beautiful, interactive Home Screen widgets. Log water, check off habits and tasks, start a focus session or feed your aquarium fish right from the widget. Free on the App Store and Google Play.">
+  <meta name="theme-color" content="#fbf7f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#100d1c" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6760586460">
+  <link rel="canonical" href="https://rustiandrei.github.io/Widgetik-website/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Widgetik">
+  <meta property="og:title" content="Widgetik: Home Screen Widgets">
+  <meta property="og:description" content="Beautiful, interactive widgets for iPhone, iPad and Android. Log water, tick off habits, start a focus session or feed your fish right from the widget.">
+  <meta property="og:url" content="https://rustiandrei.github.io/Widgetik-website/">
+  <meta property="og:image" content="https://rustiandrei.github.io/Widgetik-website/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="icon" type="image/png" sizes="256x256" href="icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <script>
+    // Show the visitor's own platform first; the switch below the hero changes it.
+    (function () {
+      var p = null;
+      try { p = localStorage.getItem('widgetik-platform'); } catch (e) {}
+      if (p !== 'ios' && p !== 'android') p = /android/i.test(navigator.userAgent) ? 'android' : 'ios';
+      document.documentElement.setAttribute('data-platform', p);
+    })();
+  </script>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap topnav">
+    <a class="brand" href="./"><img src="img/logo.svg" width="34" height="34" alt="">Widgetik</a>
+    <nav>
+      <a class="wide" href="#features">Features</a>
+      <a class="wide" href="#widgets">Widgets</a>
+      <a class="wide" href="#premium">Premium</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+
+  <div class="wrap hero-copy">
+    <span class="pill">Widgets for iPhone, iPad and Android</span>
+    <h1><span class="line">Beautiful widgets</span> <span class="line hl">for your Home Screen</span></h1>
+    <p class="lede">Log water, check off habits and tasks, start a focus session or feed your aquarium fish right from the widget, without opening the app. Then make every widget your own.</p>
+    <div class="actions">
+      <a class="badge" href="https://apps.apple.com/us/app/widgetik-custom-widgets/id6760586460"><img src="img/app-store-badge.svg" width="150" height="50" alt="Download on the App Store"></a>
+      <a class="badge" href="https://play.google.com/store/apps/details?id=com.game.widgetik"><img src="img/google-play-badge.png" width="168" height="50" alt="Get it on Google Play"></a>
+    </div>
+    <ul class="checks">
+      <li>25+ widgets</li>
+      <li>Free to download</li>
+      <li>No account needed</li>
+      <li>Pay once, no subscription</li>
+    </ul>
+  </div>
+
+  <div class="showcase">
+    <img class="float f1" src="img/w/habit-s-run.webp" width="320" height="320" alt="">
+    <img class="float f2" src="img/w/countdown-s.webp" width="320" height="320" alt="">
+    <img class="float f3" src="img/w/hydration-s.webp" width="320" height="320" alt="">
+    <img class="float f4" src="img/w/moon-s.webp" width="320" height="320" alt="">
+    <div class="devices">
+      <div class="phone ios"><div class="bezel"><img src="img/ios-day.webp" width="750" height="1403" alt="An iPhone Home Screen with Widgetik's Agenda, Aquarium and Habit Streak widgets"></div></div>
+      <div class="phone android"><div class="bezel"><img src="img/android-zen.webp" width="750" height="1312" alt="An Android Home Screen with Widgetik's Zen Garden and Daily Quote widgets"></div></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>At a glance. <span class="hl">One tap away.</span></h2>
+        <p>Widgetik's widgets don't just show you things. Tap them to log, tick off and start, right on your Home Screen.</p>
+      </div>
+
+      <div class="switch-dock">
+        <div class="switch" role="group" aria-label="Show screenshots from">
+          <span class="switch-label">Screenshots from</span>
+          <button type="button" data-set-platform="ios" aria-pressed="true">iPhone</button>
+          <button type="button" data-set-platform="android" aria-pressed="false">Android</button>
+        </div>
+      </div>
+
+      <div class="feature t-sky">
+        <div class="copy">
+          <div class="eyebrow">Interactive</div>
+          <h2>Just tap.<br>No app <em>needed.</em></h2>
+          <p>Log a glass of water, check off a habit or start a focus session right on the widget. Try these.</p>
+          <ul class="ticks">
+            <li><strong>Hydration:</strong> log water in one tap, with your own quick-add amounts in mL, fl oz or cups.</li>
+            <li><strong>Mindfulness:</strong> add mindful minutes toward a daily goal.</li>
+            <li><strong>Checklist:</strong> tick off tasks, routines and groceries on your Home Screen.</li>
+            <li><strong>Focus Timer</strong> <span class="pro">Premium</span> start, pause and reset focus sessions.</li>
+            <li class="only-ios"><strong>Control Center:</strong> log water, check off a habit or start a focus session from controls.</li>
+            <li class="only-android"><strong>Quick Settings:</strong> tiles to log water and start a focus session.</li>
+          </ul>
+        </div>
+        <div class="visual try">
+          <div class="board">
+            <div class="wg hydration"><div class="wg-in">
+              <div class="glass" aria-hidden="true"><div class="water"></div><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="hy-body">
+                <p class="hy-amount" aria-live="polite"><b data-water-total>1500</b> <span>/ 2000 ml</span></p>
+                <p class="hy-msg" data-water-msg>Almost at your goal! 🔥</p>
+                <div class="hy-bar"><div class="track"><span data-water-bar></span></div><b data-water-pct>75%</b></div>
+                <div class="hy-buttons">
+                  <button type="button" data-add="150">+150</button>
+                  <button type="button" data-add="250">+250</button>
+                  <button type="button" data-add="500">+500</button>
+                  <button type="button" class="reset" data-water-reset aria-label="Reset today's water"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 4.5v4h4"/></svg></button>
+                </div>
+              </div>
+            </div></div>
+
+            <div class="wg habit" data-done="false"><div class="wg-in">
+              <button type="button" class="hb-check" aria-pressed="false" aria-label="Check in Morning run for today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 12.5l4.2 4.2 8.8-9.2"/></svg></button>
+              <p class="hb-name">Morning run</p>
+              <p class="hb-status" data-habit-status>Tap to check in</p>
+              <div class="hb-stats" aria-live="polite">
+                <div><b data-habit-streak>12</b><span>Streak</span></div>
+                <div><b data-habit-best>12</b><span>Best</span></div>
+              </div>
+            </div></div>
+
+            <div class="wg focus" data-running="false"><div class="wg-in">
+              <div class="fc-ring"><div class="fc-time"><b data-focus-time>25:00</b><span>Focus</span></div></div>
+              <p class="fc-status" data-focus-status>Settle in</p>
+              <div class="fc-buttons">
+                <button type="button" class="fc-play" data-focus-toggle aria-label="Start focus session">
+                  <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>
+                  <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.5h3v13h-3zM13.5 5.5h3v13h-3z" fill="currentColor"/></svg>
+                </button>
+                <button type="button" class="fc-reset" data-focus-reset aria-label="Reset focus timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 4.5v4h4"/></svg></button>
+              </div>
+            </div></div>
+          </div>
+          <p class="try-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10"/><path d="M12 9.5a1.5 1.5 0 0 1 3 0V11"/><path d="M15 10.5a1.5 1.5 0 0 1 3 0v3.5a6 6 0 0 1-6 6h-.8a5 5 0 0 1-4-2l-2.6-3.5a1.5 1.5 0 0 1 2.3-1.9L9 14"/></svg>These work. Go ahead, tap them.</p>
+        </div>
+      </div>
+
+      <div class="feature t-peach">
+        <div class="copy">
+          <div class="eyebrow">Plan your day</div>
+          <h2>Your day,<br>at a <em>glance</em></h2>
+          <p>See what's on now, how long until your next event, and the days ahead.</p>
+          <ul class="ticks">
+            <li><strong>Agenda</strong> <span class="pro">Premium</span> today's events from your calendar, what's next and your free time.</li>
+            <li><strong>Event Countdown:</strong> trips, exams and big moments, counted down in days.</li>
+            <li><strong>Upcoming Birthdays</strong> <span class="pro">Premium</span> ages and days to go<span class="only-android">, lunar birthdays included</span>.</li>
+            <li><strong>Daily Dashboard:</strong> time, your next countdown, steps, water and mindfulness in one widget.</li>
+            <li><strong>Month Calendar, Week Strip and World Clock</strong> for the month, the week and the cities you care about.</li>
+          </ul>
+        </div>
+        <div class="visual">
+          <div class="stage">
+            <div class="phone ios only-ios"><div class="bezel"><img src="img/ios-birthdays.webp" width="750" height="1403" loading="lazy" alt="Upcoming Birthdays, a trip countdown and the year in dots on an iPhone Home Screen"></div></div>
+            <div class="phone android only-android"><div class="bezel"><img src="img/android-dashboard.webp" width="750" height="1312" loading="lazy" alt="The Daily Dashboard and Month Calendar widgets on an Android Home Screen"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature t-coral">
+        <div class="copy">
+          <div class="eyebrow">Habits &amp; health</div>
+          <h2>Streaks<br>that <em>stick</em></h2>
+          <p>Check off habits with a tap, count reps and keep the streak going.</p>
+          <ul class="ticks">
+            <li><strong>Habit Tracker:</strong> tick off daily habits and keep your current and best streaks.</li>
+            <li class="only-ios"><strong>Habit Streak:</strong> your current streak and this week at a glance.</li>
+            <li class="only-android"><strong>Habit Matrix:</strong> a week of up to five habits in one widget.</li>
+            <li><strong>Habit Counter</strong> <span class="pro">Premium</span> sets, reps, pages or glasses, one tap at a time.</li>
+            <li><strong>Step Counter:</strong> your daily steps from <span class="only-ios">Apple Health</span><span class="only-android">Health Connect</span>.</li>
+          </ul>
+        </div>
+        <div class="visual">
+          <div class="stage">
+            <div class="phone ios only-ios"><div class="bezel"><img src="img/ios-habits.webp" width="750" height="1403" loading="lazy" alt="Setting up a Meditate habit in Widgetik on iPhone, with a 47-day streak in the live preview"></div></div>
+            <div class="phone android only-android"><div class="bezel"><img src="img/android-habits.webp" width="750" height="1312" loading="lazy" alt="The Habit Matrix and World Clock widgets on an Android Home Screen"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature t-aqua">
+        <div class="copy">
+          <div class="eyebrow">Just for fun</div>
+          <h2>Your aquarium,<br><em>alive</em></h2>
+          <p>Tap to feed your fish, clean the tank and watch them swim.</p>
+          <ul class="ticks">
+            <li><strong>Aquarium:</strong> a small tank of fish to feed and keep clean.</li>
+            <li><strong>Zen Garden</strong> <span class="pro">Premium</span> water your bonsai, rake the sand and watch it blossom.</li>
+            <li><strong>Moon Phase, Daily Quote, Daily Inspiration, Photo and Battery</strong> for everything else.</li>
+          </ul>
+        </div>
+        <div class="visual">
+          <div class="stage">
+            <div class="phone ios only-ios"><div class="bezel"><img src="img/ios-aquarium.webp" width="750" height="1403" loading="lazy" alt="The Aquarium in Widgetik on iPhone, with fish, tank status and Feed and Change Water buttons"></div></div>
+            <div class="phone android only-android"><div class="bezel"><img src="img/android-aquarium.webp" width="750" height="1312" loading="lazy" alt="The Aquarium widget on an Android Home Screen, with Feed, Clean and Swim buttons"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature t-mint">
+        <div class="copy">
+          <div class="eyebrow">Make it yours</div>
+          <h2>Make every<br>widget <em>yours</em></h2>
+          <p>Choose solid colors or gradients, themes, fonts and text colors, and see every change in a live preview.</p>
+          <ul class="ticks">
+            <li>Themes, solid colors and gradients for every widget.</li>
+            <li class="only-ios">Small, medium and large sizes, plus Extra Large on iPad.</li>
+            <li class="only-android">Resize freely: many widgets have their own small, medium, large and tall designs.</li>
+            <li class="only-ios"><strong>Transparent Backgrounds</strong> <span class="pro">Premium</span> Agenda, Daily Quote and Battery blend into your wallpaper.</li>
+            <li class="only-ios">Extra fonts and custom text colors with Premium.</li>
+            <li class="only-android">Text colors to match your wallpaper, and extra fonts with Premium.</li>
+          </ul>
+        </div>
+        <div class="visual">
+          <div class="stage">
+            <div class="phone ios only-ios"><div class="bezel"><img src="img/ios-customize.webp" width="750" height="1403" loading="lazy" alt="Styling the Progress Tracker widget in Widgetik on iPhone"></div></div>
+            <div class="phone android only-android"><div class="bezel"><img src="img/android-editor.webp" width="750" height="1312" loading="lazy" alt="Choosing a theme for the Time widget in Widgetik on Android"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="widgets" class="wall-section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>25+ widgets, <span class="hl">one app</span></h2>
+        <p>Clocks, calendars, habits, wellness and a little fun, all designed to look good together.</p>
+      </div>
+      <div class="wall-frame">
+      <div class="wall">
+        <figure class="w l"><img src="img/w/dashboard-l.webp" width="640" height="640" loading="lazy" alt="Steps, the next event, water, a daily mantra and quick buttons in one widget"><figcaption>Daily Dashboard</figcaption></figure>
+        <figure class="w"><img src="img/w/counter-s.webp" width="320" height="320" loading="lazy" alt="4 of 5 sets of push-ups, with minus and plus buttons"><figcaption>Habit Counter <i class="crown" title="Premium"></i></figcaption></figure>
+        <figure class="w"><img src="img/w/mindful-s.webp" width="320" height="320" loading="lazy" alt="15 of 20 mindful minutes and a +5 minute button"><figcaption>Mindfulness</figcaption></figure>
+        <figure class="w"><img src="img/w/battery-s.webp" width="320" height="320" loading="lazy" alt="Battery at 82 percent"><figcaption>Battery</figcaption></figure>
+        <figure class="w m"><img src="img/w/checklist-m.webp" width="640" height="308" loading="lazy" alt="Today's tasks, two of five done"><figcaption>Checklist</figcaption></figure>
+        <figure class="w l"><img src="img/w/zen-l.webp" width="640" height="640" loading="lazy" alt="A blossoming bonsai with Water, Rake and Prune buttons"><figcaption>Zen Garden <i class="crown" title="Premium"></i></figcaption></figure>
+        <figure class="w m"><img src="img/w/time-m-sunrise.webp" width="640" height="308" loading="lazy" alt="The time and date beside a mini month calendar"><figcaption>Digital Watch</figcaption></figure>
+        <figure class="w m"><img src="img/w/progress-m.webp" width="640" height="308" loading="lazy" alt="2026 is 76 percent done, shown as a grid of dots"><figcaption>Progress Tracker</figcaption></figure>
+        <figure class="w"><img src="img/w/moon-s.webp" width="320" height="320" loading="lazy" alt="A waning crescent moon at 31 percent illumination"><figcaption>Moon Phase</figcaption></figure>
+        <figure class="w l"><img src="img/w/calendar-l.webp" width="640" height="640" loading="lazy" alt="The month of October with today highlighted"><figcaption>Month Calendar</figcaption></figure>
+        <figure class="w m"><img src="img/w/birthday-m.webp" width="640" height="308" loading="lazy" alt="Two upcoming birthdays with ages and days to go"><figcaption>Upcoming Birthdays <i class="crown" title="Premium"></i></figcaption></figure>
+        <figure class="w m"><img src="img/w/hydration-m.webp" width="640" height="308" loading="lazy" alt="1,500 of 2,000 ml of water, with quick-add buttons"><figcaption>Hydration</figcaption></figure>
+        <figure class="w l"><img src="img/w/aquarium-l.webp" width="640" height="640" loading="lazy" alt="Four fish swimming in a tank, with Feed, Clean and Swim buttons"><figcaption>Aquarium</figcaption></figure>
+        <figure class="w m"><img src="img/w/inspiration-m.webp" width="640" height="308" loading="lazy" alt="Today's date and an inspiring line"><figcaption>Daily Inspiration</figcaption></figure>
+        <figure class="w m"><img src="img/w/agenda-m.webp" width="640" height="308" loading="lazy" alt="Today's events and free time until 11 AM"><figcaption>Agenda <i class="crown" title="Premium"></i></figcaption></figure>
+        <figure class="w m"><img src="img/w/focus-m.webp" width="640" height="308" loading="lazy" alt="A 25-minute focus session ready to start"><figcaption>Focus Timer <i class="crown" title="Premium"></i></figcaption></figure>
+        <figure class="w m"><img src="img/w/weekstrip-m.webp" width="640" height="308" loading="lazy" alt="This week, with today marked"><figcaption>Week Strip</figcaption></figure>
+        <figure class="w"><img src="img/w/habit-s-run.webp" width="320" height="320" loading="lazy" alt="Morning run done today, a 12-day streak"><figcaption>Habit Tracker</figcaption></figure>
+        <figure class="w"><img src="img/w/emoji-s.webp" width="320" height="320" loading="lazy" alt="A smiling emoji above the time"><figcaption>Emoji Clock</figcaption></figure>
+        <figure class="w"><img src="img/w/photo-s-aurora.webp" width="320" height="320" loading="lazy" alt="A photo of the northern lights with the date"><figcaption>Photo</figcaption></figure>
+        <figure class="w"><img src="img/w/steps-s.webp" width="320" height="320" loading="lazy" alt="8,432 of 10,000 steps"><figcaption>Step Counter</figcaption></figure>
+        <figure class="w m"><img src="img/w/worldclock-m-aurora.webp" width="640" height="308" loading="lazy" alt="The time in New York, London, Tokyo and Sydney"><figcaption>World Clock</figcaption></figure>
+        <figure class="w"><img src="img/w/analog-s.webp" width="320" height="320" loading="lazy" alt="An analog clock face"><figcaption>Analog Watch</figcaption></figure>
+        <figure class="w"><img src="img/w/countdown-s.webp" width="320" height="320" loading="lazy" alt="12 days left until a beach vacation"><figcaption>Event Countdown</figcaption></figure>
+        <figure class="w m"><img src="img/w/quote-m.webp" width="640" height="308" loading="lazy" alt="Today's quote"><figcaption>Daily Quote</figcaption></figure>
+      </div>
+      </div>
+      <p class="wall-note"><i class="crown" aria-hidden="true"></i> Premium widgets unlock with a one-time purchase.</p>
+    </div>
+  </section>
+
+  <section id="platforms" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Made for iPhone, iPad <span class="hl">and Android</span></h2>
+        <p>The same widgets everywhere, plus extras that make the most of each platform.</p>
+      </div>
+
+      <div class="ipad t-lavender">
+        <div class="ipad-copy">
+          <div class="eyebrow">iPad</div>
+          <h3>Big widgets for a big screen</h3>
+          <p>Agenda, Aquarium and Daily Dashboard also come in Extra Large, a size made for iPad.</p>
+        </div>
+        <div class="ipad-stage">
+          <div class="tablet"><div class="bezel"><img src="img/ipad-day.webp" width="1100" height="1135" loading="lazy" alt="An iPad Home Screen with Extra Large Aquarium and Agenda widgets"></div></div>
+        </div>
+      </div>
+
+      <div class="platforms">
+        <article class="platform">
+          <div class="platform-head">
+            <img src="img/icon-ios.png" width="64" height="64" alt="Widgetik's App Store icon">
+            <div>
+              <h3>iPhone &amp; iPad</h3>
+              <p class="req">iOS 18 or iPadOS 18 or later</p>
+            </div>
+          </div>
+          <ul class="ticks">
+            <li>Lock Screen widgets for the date, calendar, progress, steps, water, battery and world time</li>
+            <li>Control Center controls to log water, check off a habit or start a focus session</li>
+            <li>Extra Large widgets on iPad</li>
+            <li>Steps from Apple Health, and the water you log saved there if you turn it on</li>
+            <li>Snap a photo of a list to turn it into checklist tasks</li>
+          </ul>
+          <a class="badge" href="https://apps.apple.com/us/app/widgetik-custom-widgets/id6760586460"><img src="img/app-store-badge.svg" width="150" height="50" loading="lazy" alt="Download on the App Store"></a>
+        </article>
+
+        <article class="platform">
+          <div class="platform-head">
+            <img src="img/icon-android.png" width="64" height="64" alt="Widgetik's Google Play icon">
+            <div>
+              <h3>Android</h3>
+              <p class="req">Android 9 or later</p>
+            </div>
+          </div>
+          <ul class="ticks">
+            <li>Resizable widgets, many with their own small, medium, large and tall designs</li>
+            <li>Quick Settings tiles to log water and start a focus session</li>
+            <li>Steps from Health Connect, and the water you log saved there if you allow it</li>
+            <li>World Clock with up to six cities, and lunar birthdays</li>
+            <li>Calendars that start the week on your locale's first day</li>
+          </ul>
+          <a class="badge" href="https://play.google.com/store/apps/details?id=com.game.widgetik"><img src="img/google-play-badge.png" width="168" height="50" loading="lazy" alt="Get it on Google Play"></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Your data <span class="hl">stays with you</span></h2>
+        <p>Your habits, health data, calendar and photos stay on your device. There's no account and no Widgetik server.</p>
+      </div>
+      <ul class="promises">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+          <strong>No account</strong>
+          <span>No sign-up and no email. Open the app and add a widget.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/><path d="M7 12h2.5l1.5-3 2 6 1.5-3H17"/></svg>
+          <strong>Health data stays private</strong>
+          <span>Steps and water go through Apple Health or Health Connect, only with your permission. They're never used for ads.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2.5"/><path d="M3 9.5h18"/><path d="M8 2.5v3"/><path d="M16 2.5v3"/></svg>
+          <strong>Calendar and photos</strong>
+          <span>Events are read only to show them in your widgets, and Photo uses only the pictures you choose.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 16.8l-5.5 2.9 1-6.2L3 9.1l6.2-.9z"/></svg>
+          <strong>Ads only in the free version</strong>
+          <span>The free version shows ads from Google AdMob. Premium removes them.</span>
+        </li>
+      </ul>
+      <p class="more-link"><a href="privacy.html">Read the privacy policy</a></p>
+    </div>
+  </section>
+
+  <section id="premium">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Free to start. <span class="hl">Pay once.</span></h2>
+        <p>Widgetik is free to download and includes ads. Premium is a one-time purchase, not a subscription.</p>
+      </div>
+
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <p class="price">No purchase needed, with ads</p>
+          <ul class="ticks">
+            <li>Clocks, calendars, countdowns and World Clock</li>
+            <li>Habit Tracker, Hydration, Mindfulness and Step Counter</li>
+            <li>Checklist, Progress Tracker and Daily Dashboard</li>
+            <li>Aquarium, Photo, Moon Phase, quotes and Battery</li>
+            <li>Themes, solid colors and gradients</li>
+          </ul>
+        </div>
+
+        <div class="plan featured">
+          <h3>Widgetik Premium</h3>
+          <p class="price">One-time purchase</p>
+          <ul class="ticks">
+            <li>Everything in Free, with no ads</li>
+            <li>Agenda and Upcoming Birthdays</li>
+            <li>Habit Counter and Focus Timer</li>
+            <li>Zen Garden</li>
+            <li>Extra fonts</li>
+            <li>On iPhone and iPad: custom text colors and Transparent Backgrounds</li>
+          </ul>
+          <p class="note"><strong>Buy once, keep it.</strong> Premium stays with your Apple Account or Google account, so you can restore it on your other devices. On Android it's called Widgetik PRO. A purchase on one platform doesn't unlock the other.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="alt">
+    <div class="wrap narrow">
+      <div class="section-head">
+        <h2>Questions, <span class="hl">answered</span></h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Is Widgetik free?</summary>
+          <p>Yes. Widgetik is free to download and includes ads. Premium is an optional one-time purchase that removes ads and unlocks Agenda, Upcoming Birthdays, Habit Counter, Focus Timer, Zen Garden and extra fonts.</p>
+        </details>
+        <details>
+          <summary>Which devices does it work on?</summary>
+          <p>iPhone and iPad with iOS 18 or iPadOS 18 or later, and Android phones and tablets with Android 9 or later.</p>
+        </details>
+        <details>
+          <summary>How do I add a widget?</summary>
+          <p>On iPhone and iPad, touch and hold an empty spot on your Home Screen, tap Edit, then Add Widget, and search for Widgetik. On Android, touch and hold an empty spot on your Home Screen, tap Widgets, find Widgetik and drag a widget into place. <a href="support.html">More help on the Support page</a>.</p>
+        </details>
+        <details>
+          <summary>Do I need an account?</summary>
+          <p>No. There's no sign-up. Your widgets and their data are stored on your device.</p>
+        </details>
+        <details>
+          <summary>If I buy Premium on iPhone, do I get it on Android too?</summary>
+          <p>No. Purchases go through the App Store or Google Play and stay on that platform. Within a platform, Premium follows your Apple Account or Google account to your other devices.</p>
+        </details>
+        <details>
+          <summary>Which languages does Widgetik speak?</summary>
+          <p>English, Chinese, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish and Ukrainian, and on iPhone and iPad also Arabic, Hindi and Vietnamese.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap">
+      <img class="icon" src="img/logo.svg" width="96" height="96" alt="">
+      <h2>Widgetik</h2>
+      <p>Beautiful, interactive widgets for iPhone, iPad and Android.</p>
+      <div class="actions">
+        <a class="badge" href="https://apps.apple.com/us/app/widgetik-custom-widgets/id6760586460"><img src="img/app-store-badge.svg" width="150" height="50" loading="lazy" alt="Download on the App Store"></a>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=com.game.widgetik"><img src="img/google-play-badge.png" width="168" height="50" loading="lazy" alt="Get it on Google Play"></a>
+      </div>
+      <p class="more"><a class="textlink" href="support.html">Questions? Visit Support →</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Widgetik</span>
+    <nav>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:rustiandrei@outlook.com">rustiandrei@outlook.com</a>
+    </nav>
+    <p class="legal">Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play, the Google Play logo and Android are trademarks of Google LLC.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+
+  // Platform switch
+  var buttons = document.querySelectorAll('[data-set-platform]');
+  function setPlatform(p, save) {
+    root.setAttribute('data-platform', p);
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].setAttribute('aria-pressed', String(buttons[i].getAttribute('data-set-platform') === p));
+    }
+    if (save) { try { localStorage.setItem('widgetik-platform', p); } catch (e) {} }
+  }
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function () { setPlatform(this.getAttribute('data-set-platform'), true); });
+  }
+  setPlatform(root.getAttribute('data-platform') || 'ios', false);
+
+  // Hydration
+  var water = document.querySelector('.wg.hydration');
+  if (water) {
+    var goal = 2000, total = 1500;
+    var totalEl = water.querySelector('[data-water-total]');
+    var msgEl = water.querySelector('[data-water-msg]');
+    var pctEl = water.querySelector('[data-water-pct]');
+    var renderWater = function () {
+      var pct = Math.min(total / goal, 1);
+      water.style.setProperty('--fill', pct.toFixed(3));
+      totalEl.textContent = total;
+      pctEl.textContent = Math.round(pct * 100) + '%';
+      msgEl.textContent = total === 0 ? 'Tap a button to log water 💧'
+        : pct >= 1 ? 'Goal reached! 🎉'
+        : pct >= 0.75 ? 'Almost at your goal! 🔥'
+        : pct >= 0.5 ? 'Halfway there! 💪'
+        : 'Good start! 💧';
+      water.classList.toggle('done', pct >= 1);
+    };
+    water.addEventListener('click', function (e) {
+      var add = e.target.closest('[data-add]');
+      if (add) { total = Math.min(total + Number(add.getAttribute('data-add')), 9999); }
+      else if (e.target.closest('[data-water-reset]')) { total = 0; }
+      else { return; }
+      renderWater();
+    });
+    renderWater();
+  }
+
+  // Habit
+  var habit = document.querySelector('.wg.habit');
+  if (habit) {
+    var check = habit.querySelector('.hb-check');
+    check.addEventListener('click', function () {
+      var done = habit.getAttribute('data-done') !== 'true';
+      habit.setAttribute('data-done', String(done));
+      check.setAttribute('aria-pressed', String(done));
+      habit.querySelector('[data-habit-streak]').textContent = done ? 13 : 12;
+      habit.querySelector('[data-habit-best]').textContent = done ? 13 : 12;
+      habit.querySelector('[data-habit-status]').textContent = done ? 'New best streak! 🎉' : 'Tap to check in';
+    });
+  }
+
+  // Focus timer
+  var focus = document.querySelector('.wg.focus');
+  if (focus) {
+    var length = 25 * 60, left = length, timer = null;
+    var timeEl = focus.querySelector('[data-focus-time]');
+    var statusEl = focus.querySelector('[data-focus-status]');
+    var toggle = focus.querySelector('[data-focus-toggle]');
+    var renderFocus = function () {
+      var m = Math.floor(left / 60), s = left % 60;
+      timeEl.textContent = (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+      focus.style.setProperty('--p', ((length - left) / length).toFixed(4));
+    };
+    var stop = function () { clearInterval(timer); timer = null; focus.setAttribute('data-running', 'false'); toggle.setAttribute('aria-label', 'Start focus session'); };
+    toggle.addEventListener('click', function () {
+      if (timer) { stop(); statusEl.textContent = 'Paused'; return; }
+      focus.setAttribute('data-running', 'true');
+      toggle.setAttribute('aria-label', 'Pause focus session');
+      statusEl.textContent = 'Focusing';
+      timer = setInterval(function () {
+        left = Math.max(left - 1, 0);
+        renderFocus();
+        if (left === 0) { stop(); statusEl.textContent = 'Session done! 🎉'; }
+      }, 1000);
+    });
+    focus.querySelector('[data-focus-reset]').addEventListener('click', function () {
+      stop(); left = length; statusEl.textContent = 'Settle in'; renderFocus();
+    });
+    renderFocus();
+  }
+})();
+</script>
+</body>
+</html>
